@@ -1,0 +1,13 @@
+<aura:component access="global" controller="BirdService">
+    <aura:attribute name="names" type="string"/>
+    <aura:attribute name="breeds" type="string"/>
+    <aura:attribute name="colors" type="string"/>
+    <aura:attribute name="photos" type="string"/>
+    <div>
+        <lightning:button label="Adote um pássaro!" onclick="{!c.adoptBird}"/>
+        <img src="{!v.photos}"/> <br/>
+        <p>Nome do pássaro: {!v.names}</p> <br/>
+        <p>Raça do pássaro: {!v.breeds}</p> <br/>
+        <p>Cor do pássaro: {!v.colors}</p> <br/>
+    </div>
+</aura:component>
