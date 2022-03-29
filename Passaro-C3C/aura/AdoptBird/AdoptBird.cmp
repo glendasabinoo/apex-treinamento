@@ -4,7 +4,7 @@
     <aura:attribute name="colors" type="string"/>
     <aura:attribute name="photos" type="string"/>
     <div>
-        <lightning:button label="Adote um pássaro!" onclick="{!c.adoptBird}"/>
+        <lightning:button label="Adote um pássaro!" onclick="{!c.adoptBird}"/> <br/>
         <img src="{!v.photos}"/> <br/>
         <p>Nome do pássaro: {!v.names}</p> <br/>
         <p>Raça do pássaro: {!v.breeds}</p> <br/>

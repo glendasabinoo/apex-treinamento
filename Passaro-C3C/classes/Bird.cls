@@ -8,7 +8,7 @@ public with sharing class Bird {
         }
         set 
         {
-            this.names = names;
+            this.names = value;
         }
     }
     public String colors 
@@ -19,7 +19,7 @@ public with sharing class Bird {
         }
         set
         {
-            this.colors = colors;
+            this.colors = value;
         }
     }
     public Integer ages 
@@ -30,7 +30,7 @@ public with sharing class Bird {
         }
         set 
         {
-            this.ages = ages;
+            this.ages = value;
         }
     }
     public String breeds 
@@ -41,7 +41,7 @@ public with sharing class Bird {
         }
         set 
         {
-            this.breeds = breeds;
+            this.breeds = value;
         }
     }
     public String photos 
@@ -52,7 +52,7 @@ public with sharing class Bird {
         }
         set 
         {
-            this.photos = photos;
+            this.photos = value;
         }
     }
 }
