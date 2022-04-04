@@ -2,8 +2,8 @@ package treinamentoc3c;
 
 import java.util.Scanner;
 
-//Escreva um cÛdigo que receba as idades de 2 homens e de 2 mulheres 
-//(considere que as idades dos homens ser„o sempre diferentes entre si, bem como as das mulheres). 
+//Escreva um c√≥digo que receba as idades de 2 homens e de 2 mulheres 
+//(considere que as idades dos homens ser√£o sempre diferentes entre si, bem como as das mulheres). 
 //Calcule e escreva a soma das idades do homem mais velho com a mulher mais nova;
 //e o produto das idades do homem mais novo com a mulher mais velha.
 public class Ex07 {
