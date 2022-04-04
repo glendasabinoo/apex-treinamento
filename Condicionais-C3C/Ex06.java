@@ -6,9 +6,9 @@ public class Ex06 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Digite um número:");
+		System.out.println("Digite um nÃºmero:");
 		int x = scan.nextInt();
-		System.out.println("Digite outro número:");
+		System.out.println("Digite outro nÃºmero:");
 		int y = scan.nextInt();
 		
 		int z = (x*y) + 5;
